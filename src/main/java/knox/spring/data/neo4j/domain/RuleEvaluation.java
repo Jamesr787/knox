@@ -191,7 +191,7 @@ public class RuleEvaluation {
             metrics.put("numIncorrect", numIncorrect);
             metrics.put("goodDesignsElim", goodDesignsElim);
             metrics.put("poorDesignsElim", poorDesignsElim);
-            metrics.put("scorePercent", 100 * (numCorrect - numIncorrect)/(totalGoodDesigns + totalPoorDesigns));
+            metrics.put("Impact", 100 * (numCorrect - numIncorrect)/(totalGoodDesigns + totalPoorDesigns));
             metrics.put("goodnessPercent", 100 * goodRemaining / totalGoodDesigns);
             metrics.put("poornessPercent", 100 * poorRemaining / totalPoorDesigns);
 
