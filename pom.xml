@@ -82,6 +82,24 @@
             <groupId>org.sbolstandard</groupId>
             <artifactId>libSBOLj</artifactId>
             <version>2.4.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.sbolstandard</groupId>
+                    <artifactId>sbol-data-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.sbolstandard</groupId>
+                    <artifactId>sbol-data-examples</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.sbolstandard</groupId>
+                    <artifactId>sbol-data-io-RDF</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.sbolstandard</groupId>
+                    <artifactId>sbol-data-nativeSbol</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!-- Spring Boot Test -->
